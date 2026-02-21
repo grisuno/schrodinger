@@ -277,7 +277,8 @@ The checkpoint at epoch 1200 is available for reproduction and as a starting poi
 
 Repository: https://github.com/grisuno/schrodinger
 
-Checkpoint: `checkpoints_phase3/latest.pth` (epoch 1200)  
+Checkpoint: `checkpoints_phase3/latest.pth` (epoch 5000)  
+Best Checkpoint: `checkpoint_phase3_training_epoch_4994_20260216_142858` (epoch 4994)
 Training logs: `results_schrodinger.txt`
 
 ---
