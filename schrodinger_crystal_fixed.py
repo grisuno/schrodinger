@@ -115,12 +115,12 @@ class Config:
     WEIGHT_METRIC_DIM_LIMIT: int = 256
 
     DEVICE: str = 'cuda' if torch.cuda.is_available() else 'cpu'
-    RANDOM_SEED: int = 42
+    RANDOM_SEED: int = 103
     LOG_LEVEL: str = 'INFO'
     RESULTS_DIR: str = 'schrodinger_results'
 
     MINING_MAX_ATTEMPTS: int = 200
-    MINING_START_SEED: int = 1
+    MINING_START_SEED: int = 103
     MINING_GLASS_PATIENCE_EPOCHS: int = 50
     MINING_PROSPECT_EPOCHS: int = 40
     MINING_PROSPECT_DELTA_EPOCH_INTERVAL: int = 10
@@ -131,9 +131,9 @@ class Config:
     MINING_TARGET_TEMP: float = 1e-10
     MINING_TARGET_CV: float = 1e-10
 
-    BATCH_CANDIDATES: List[int] = field(default_factory=lambda: [8, 16, 32, 64])
+    BATCH_CANDIDATES: List[int] = field(default_factory=lambda: [64])
     BATCH_PROSPECT_EPOCHS: int = 30
-    BATCH_PROSPECT_SEED: int = 42
+    BATCH_PROSPECT_SEED: int = 103
 
     LAMBDA_INITIAL: float = 1.0
     LAMBDA_MAX: float = 1e35
