@@ -1,0 +1,584 @@
+{
+  "concepts": [
+    {
+      "name": "compute",
+      "files": [
+        "berry_phase_calculator.py",
+        "crystallographer.py",
+        "experiment2.py",
+        "main.py",
+        "orbital_visualizer2.py",
+        "schrodinger_crystal_fixed.py"
+      ],
+      "mentions": 140,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "calculator",
+      "files": [
+        "berry_phase_calculator.py",
+        "crystallographer.py",
+        "experiment2.py",
+        "main.py",
+        "orbital_visualizer2.py",
+        "schrodinger_crystal_fixed.py"
+      ],
+      "mentions": 67,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "metrics",
+      "files": [
+        "berry_phase_calculator.py",
+        "crystallographer.py",
+        "experiment2.py",
+        "main.py",
+        "schrodinger_crystal_fixed.py"
+      ],
+      "mentions": 61,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "spectral",
+      "files": [
+        "berry_phase_calculator.py",
+        "crystallographer.py",
+        "experiment2.py",
+        "main.py",
+        "schrodinger_crystal_fixed.py"
+      ],
+      "mentions": 54,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "hamiltonian",
+      "files": [
+        "crystallographer.py",
+        "experiment2.py",
+        "main.py",
+        "orbital_visualizer2.py",
+        "schrodinger_crystal_fixed.py"
+      ],
+      "mentions": 41,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "checkpoint",
+      "files": [
+        "berry_phase_calculator.py",
+        "crystallographer.py",
+        "experiment2.py",
+        "main.py",
+        "schrodinger_crystal_fixed.py"
+      ],
+      "mentions": 40,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "config",
+      "files": [
+        "crystallographer.py",
+        "experiment2.py",
+        "main.py",
+        "orbital_visualizer2.py",
+        "schrodinger_crystal_fixed.py"
+      ],
+      "mentions": 32,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "training",
+      "files": [
+        "berry_phase_calculator.py",
+        "crystallographer.py",
+        "experiment2.py",
+        "main.py",
+        "schrodinger_crystal_fixed.py"
+      ],
+      "mentions": 19,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "all",
+      "files": [
+        "berry_phase_calculator.py",
+        "crystallographer.py",
+        "experiment2.py",
+        "main.py",
+        "schrodinger_crystal_fixed.py"
+      ],
+      "mentions": 17,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "crystal",
+      "files": [
+        "berry_phase_calculator.py",
+        "crystallographer.py",
+        "experiment2.py",
+        "main.py",
+        "schrodinger_crystal_fixed.py"
+      ],
+      "mentions": 15,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "layer",
+      "files": [
+        "berry_phase_calculator.py",
+        "crystallographer.py",
+        "experiment2.py",
+        "main.py",
+        "schrodinger_crystal_fixed.py"
+      ],
+      "mentions": 15,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "single",
+      "files": [
+        "berry_phase_calculator.py",
+        "crystallographer.py",
+        "experiment2.py",
+        "main.py",
+        "schrodinger_crystal_fixed.py"
+      ],
+      "mentions": 9,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "state",
+      "files": [
+        "berry_phase_calculator.py",
+        "crystallographer.py",
+        "experiment2.py",
+        "main.py",
+        "schrodinger_crystal_fixed.py"
+      ],
+      "mentions": 9,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "vector",
+      "files": [
+        "berry_phase_calculator.py",
+        "crystallographer.py",
+        "experiment2.py",
+        "main.py",
+        "schrodinger_crystal_fixed.py"
+      ],
+      "mentions": 9,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "create",
+      "files": [
+        "berry_phase_calculator.py",
+        "crystallographer.py",
+        "experiment2.py",
+        "main.py",
+        "schrodinger_crystal_fixed.py"
+      ],
+      "mentions": 7,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "phase",
+      "files": [
+        "berry_phase_calculator.py",
+        "crystallographer.py",
+        "main.py",
+        "schrodinger_crystal_fixed.py"
+      ],
+      "mentions": 57,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "model",
+      "files": [
+        "berry_phase_calculator.py",
+        "crystallographer.py",
+        "experiment2.py",
+        "orbital_visualizer2.py"
+      ],
+      "mentions": 44,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "weight",
+      "files": [
+        "crystallographer.py",
+        "experiment2.py",
+        "main.py",
+        "schrodinger_crystal_fixed.py"
+      ],
+      "mentions": 32,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "schrodinger",
+      "files": [
+        "berry_phase_calculator.py",
+        "crystallographer.py",
+        "main.py",
+        "schrodinger_crystal_fixed.py"
+      ],
+      "mentions": 30,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "network",
+      "files": [
+        "crystallographer.py",
+        "experiment2.py",
+        "main.py",
+        "schrodinger_crystal_fixed.py"
+      ],
+      "mentions": 27,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "seed",
+      "files": [
+        "crystallographer.py",
+        "experiment2.py",
+        "main.py",
+        "schrodinger_crystal_fixed.py"
+      ],
+      "mentions": 25,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "results",
+      "files": [
+        "berry_phase_calculator.py",
+        "crystallographer.py",
+        "main.py",
+        "schrodinger_crystal_fixed.py"
+      ],
+      "mentions": 20,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "batch",
+      "files": [
+        "crystallographer.py",
+        "experiment2.py",
+        "main.py",
+        "schrodinger_crystal_fixed.py"
+      ],
+      "mentions": 19,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "time",
+      "files": [
+        "crystallographer.py",
+        "experiment2.py",
+        "main.py",
+        "schrodinger_crystal_fixed.py"
+      ],
+      "mentions": 18,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "kappa",
+      "files": [
+        "crystallographer.py",
+        "experiment2.py",
+        "main.py",
+        "schrodinger_crystal_fixed.py"
+      ],
+      "mentions": 17,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "discretization",
+      "files": [
+        "crystallographer.py",
+        "experiment2.py",
+        "main.py",
+        "schrodinger_crystal_fixed.py"
+      ],
+      "mentions": 15,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "effective",
+      "files": [
+        "crystallographer.py",
+        "experiment2.py",
+        "main.py",
+        "schrodinger_crystal_fixed.py"
+      ],
+      "mentions": 15,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "entropy",
+      "files": [
+        "crystallographer.py",
+        "experiment2.py",
+        "main.py",
+        "schrodinger_crystal_fixed.py"
+      ],
+      "mentions": 15,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "complexity",
+      "files": [
+        "crystallographer.py",
+        "experiment2.py",
+        "main.py",
+        "schrodinger_crystal_fixed.py"
+      ],
+      "mentions": 14,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "forward",
+      "files": [
+        "crystallographer.py",
+        "experiment2.py",
+        "main.py",
+        "schrodinger_crystal_fixed.py"
+      ],
+      "mentions": 14,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "local",
+      "files": [
+        "crystallographer.py",
+        "experiment2.py",
+        "main.py",
+        "schrodinger_crystal_fixed.py"
+      ],
+      "mentions": 14,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "superposition",
+      "files": [
+        "crystallographer.py",
+        "experiment2.py",
+        "main.py",
+        "schrodinger_crystal_fixed.py"
+      ],
+      "mentions": 14,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "temperature",
+      "files": [
+        "crystallographer.py",
+        "experiment2.py",
+        "main.py",
+        "schrodinger_crystal_fixed.py"
+      ],
+      "mentions": 13,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "thermodynamic",
+      "files": [
+        "crystallographer.py",
+        "experiment2.py",
+        "main.py",
+        "schrodinger_crystal_fixed.py"
+      ],
+      "mentions": 13,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "apply",
+      "files": [
+        "crystallographer.py",
+        "experiment2.py",
+        "main.py",
+        "schrodinger_crystal_fixed.py"
+      ],
+      "mentions": 12,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "logger",
+      "files": [
+        "crystallographer.py",
+        "experiment2.py",
+        "main.py",
+        "schrodinger_crystal_fixed.py"
+      ],
+      "mentions": 12,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "save",
+      "files": [
+        "crystallographer.py",
+        "experiment2.py",
+        "main.py",
+        "schrodinger_crystal_fixed.py"
+      ],
+      "mentions": 12,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "alpha",
+      "files": [
+        "crystallographer.py",
+        "experiment2.py",
+        "main.py",
+        "schrodinger_crystal_fixed.py"
+      ],
+      "mentions": 11,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "analyzer",
+      "files": [
+        "crystallographer.py",
+        "experiment2.py",
+        "main.py",
+        "schrodinger_crystal_fixed.py"
+      ],
+      "mentions": 11,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "engine",
+      "files": [
+        "crystallographer.py",
+        "experiment2.py",
+        "main.py",
+        "schrodinger_crystal_fixed.py"
+      ],
+      "mentions": 11,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "load",
+      "files": [
+        "berry_phase_calculator.py",
+        "crystallographer.py",
+        "main.py",
+        "schrodinger_crystal_fixed.py"
+      ],
+      "mentions": 11,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "run",
+      "files": [
+        "crystallographer.py",
+        "experiment2.py",
+        "main.py",
+        "schrodinger_crystal_fixed.py"
+      ],
+      "mentions": 11,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "size",
+      "files": [
+        "crystallographer.py",
+        "main.py",
+        "orbital_visualizer2.py",
+        "schrodinger_crystal_fixed.py"
+      ],
+      "mentions": 11,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "wavefunction",
+      "files": [
+        "crystallographer.py",
+        "main.py",
+        "orbital_visualizer2.py",
+        "schrodinger_crystal_fixed.py"
+      ],
+      "mentions": 11,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "operator",
+      "files": [
+        "crystallographer.py",
+        "experiment2.py",
+        "main.py",
+        "schrodinger_crystal_fixed.py"
+      ],
+      "mentions": 10,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "quantum",
+      "files": [
+        "crystallographer.py",
+        "experiment2.py",
+        "main.py",
+        "schrodinger_crystal_fixed.py"
+      ],
+      "mentions": 10,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "integrity",
+      "files": [
+        "crystallographer.py",
+        "experiment2.py",
+        "main.py",
+        "schrodinger_crystal_fixed.py"
+      ],
+      "mentions": 9,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "poynting",
+      "files": [
+        "crystallographer.py",
+        "experiment2.py",
+        "main.py",
+        "schrodinger_crystal_fixed.py"
+      ],
+      "mentions": 9,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "crystallography",
+      "files": [
+        "crystallographer.py",
+        "experiment2.py",
+        "main.py",
+        "schrodinger_crystal_fixed.py"
+      ],
+      "mentions": 8,
+      "confidence": "EXTRACTED"
+    },
+    {
+      "name": "harmonic",
+      "files": [
+        "crystallographer.py",
+        "main.py",
+        "orbital_visualizer2.py",
+        "schrodinger_crystal_fixed.py"
+      ],
+      "mentions": 8,
+      "confidence": "EXTRACTED"
+    }
+  ],
+  "relations": [],
+  "dialectic": [
+    "Thesis: `all` centralizes 5 files; Antithesis: `alpha` pulls 4 files with 4 shared (Jaccard 0.80); Synthesis: should they merge, split by layer, or keep `bridges` explicit?",
+    "Thesis: `all` centralizes 5 files; Antithesis: `analyzer` pulls 4 files with 4 shared (Jaccard 0.80); Synthesis: should they merge, split by layer, or keep `bridges` explicit?",
+    "Thesis: `all` centralizes 5 files; Antithesis: `apply` pulls 4 files with 4 shared (Jaccard 0.80); Synthesis: should they merge, split by layer, or keep `bridges` explicit?",
+    "Thesis: `all` centralizes 5 files; Antithesis: `batch` pulls 4 files with 4 shared (Jaccard 0.80); Synthesis: should they merge, split by layer, or keep `bridges` explicit?",
+    "Thesis: `all` centralizes 5 files; Antithesis: `calculator` pulls 6 files with 5 shared (Jaccard 0.83); Synthesis: should they merge, split by layer, or keep `bridges` explicit?",
+    "Thesis: `all` centralizes 5 files; Antithesis: `checkpoint` pulls 5 files with 5 shared (Jaccard 1.00); Synthesis: should they merge, split by layer, or keep `bridges` explicit?",
+    "Thesis: `all` centralizes 5 files; Antithesis: `complexity` pulls 4 files with 4 shared (Jaccard 0.80); Synthesis: should they merge, split by layer, or keep `bridges` explicit?",
+    "Thesis: `all` centralizes 5 files; Antithesis: `compute` pulls 6 files with 5 shared (Jaccard 0.83); Synthesis: should they merge, split by layer, or keep `bridges` explicit?",
+    "Thesis: `all` centralizes 5 files; Antithesis: `config` pulls 5 files with 4 shared (Jaccard 0.67); Synthesis: should they merge, split by layer, or keep `bridges` explicit?",
+    "Thesis: `all` centralizes 5 files; Antithesis: `create` pulls 5 files with 5 shared (Jaccard 1.00); Synthesis: should they merge, split by layer, or keep `bridges` explicit?"
+  ]
+}
