@@ -291,3 +291,36 @@ Training logs: `results_schrodinger.txt`
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![Shell Script](https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white) ![Flask](https://img.shields.io/badge/flask-%23000.svg?style=for-the-badge&logo=flask&logoColor=white) [![License: AGPL v3](https://img.shields.io/badge/License-AGPLv3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)
 
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/Y8Y2Z73AV)
+
+
+---
+### Related Physics and Mathematics Projects
+Exploring fundamental patterns and equations:
+- [maxwell](https://github.com/grisuno/maxwell): Grokking Maxwell equations and electromagnetism.
+- [dirac](https://github.com/grisuno/dirac): Relativistic quantum mechanics and the Dirac equation.
+- [ramanujan](https://github.com/grisuno/ramanujan): Advanced mathematical patterns and series.
+- [algebra-de-grok](https://github.com/grisuno/algebra-de-grok): Algebraic foundations applied to grokking models.
+
+<!-- readmenator-kb-link -->
+## Knowledge Base
+
+This project has been analyzed by [ReadMenator](https://github.com/grisuno/ReadMenator),
+a zero-token polyglot static analysis tool. Analysis outputs are available:
+
+- **[KNOWLEDGE_BASE.md](./KNOWLEDGE_BASE.md)** -- Full architecture reference with all
+  classes, functions, imports, dependency graphs, UML class diagrams, security
+  audit findings, community analysis, and more.
+- **[readmenator-agent/](./readmenator-agent/)** -- Agent-friendly, grep-optimized index.
+  - `INDEX.md` -- Quick reference: what each file does
+  - `API.md` -- Public function contracts
+  - `GOTCHAS.md` -- Change warnings
+  - `SECURITY.md` -- Findings by severity
+- **[readmenator-wiki/](./readmenator-wiki/)** -- Navigable wiki (start here for the big picture).
+  - `index.md` -- Entry point: overview, reading order, god nodes, connections
+  - `community_*.md` -- One synthesis page per code community
+  - `REPORT.md` -- Honest audit: coverage, confidence, limits
+
+AI agents: Read `readmenator-wiki/index.md` first for the big picture, then `readmenator-agent/INDEX.md` for grep-friendly lookup.
+Developers: Read `KNOWLEDGE_BASE.md` for full architecture reference.
+<!-- /readmenator-kb-link -->
+
