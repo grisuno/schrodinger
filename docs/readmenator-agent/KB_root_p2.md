@@ -1,0 +1,186 @@
+# Subsystem: root (page 2 of 2)
+Previous: [KB_root.md](KB_root.md)
+
+## schrodinger_crystal_fixed.py
+- Doc: Author: Gris Iscomeback Email: grisiscomeback@gmail.com Date of creation: 2026 License: AGPL v3...
+- Layer: utility
+- Language: py
+- Symbols:
+  - `Config` (class, line 53) `class Config`
+  - `IPhaseDetector` (class, line 212) `class IPhaseDetector(ABC)`
+  - `IMetricCalculator` (class, line 218) `class IMetricCalculator(ABC)`
+  - `SeedManager` (class, line 224) `class SeedManager`
+  - `LoggerFactory` (class, line 236) `class LoggerFactory`
+  - `HamiltonianOperator` (class, line 251) `class HamiltonianOperator`
+  - `SpectralLayer` (class, line 275) `class SpectralLayer(Module)`
+  - `HamiltonianBackbone` (class, line 313) `class HamiltonianBackbone(Module)`
+  - `HamiltonianInferenceEngine` (class, line 340) `class HamiltonianInferenceEngine`
+  - `SchrodingerPotentialGenerator` (class, line 398) `class SchrodingerPotentialGenerator`
+  - `SchrodingerDataset` (class, line 448) `class SchrodingerDataset(Dataset)`
+  - `SchrodingerSpectralNetwork` (class, line 567) `class SchrodingerSpectralNetwork(Module)`
+  - `FullFourierAnalyzer` (class, line 601) `class FullFourierAnalyzer`
+  - `FourierMassCenterAnalyzer` (class, line 793) `class FourierMassCenterAnalyzer`
+  - `TopologicalPhaseDetector` (class, line 873) `class TopologicalPhaseDetector(IPhaseDetector)`
+  - `SpectralFieldExtractor` (class, line 946) `class SpectralFieldExtractor`
+  - `TopologicalCrystallizationLoss` (class, line 968) `class TopologicalCrystallizationLoss(Module)`
+  - `CrystallizationPressureApplicator` (class, line 1006) `class CrystallizationPressureApplicator`
+  - `TopologicalMetricsCalculator` (class, line 1021) `class TopologicalMetricsCalculator(IMetricCalculator)`
+  - `LocalComplexityAnalyzer` (class, line 1084) `class LocalComplexityAnalyzer`
+  - `SuperpositionAnalyzer` (class, line 1101) `class SuperpositionAnalyzer`
+  - `CrystallographyMetricsCalculator` (class, line 1122) `class CrystallographyMetricsCalculator(IMetricCalculator)`
+  - `ThermodynamicMetricsCalculator` (class, line 1332) `class ThermodynamicMetricsCalculator(IMetricCalculator)`
+  - `SpectralGeometryCalculator` (class, line 1412) `class SpectralGeometryCalculator(IMetricCalculator)`
+  - `RicciCurvatureCalculator` (class, line 1465) `class RicciCurvatureCalculator(IMetricCalculator)`
+  - `SpectroscopyMetricsCalculator` (class, line 1509) `class SpectroscopyMetricsCalculator(IMetricCalculator)`
+  - `LambdaPressureScheduler` (class, line 1546) `class LambdaPressureScheduler`
+  - `AdaptiveLambdaScheduler` (class, line 1580) `class AdaptiveLambdaScheduler(LambdaPressureScheduler)`
+  - `QuadruplePrecisionLambdaScheduler` (class, line 1601) `class QuadruplePrecisionLambdaScheduler`
+  - `AnnealingScheduler` (class, line 1639) `class AnnealingScheduler`
+  - `TopologicalAnnealingScheduler` (class, line 1669) `class TopologicalAnnealingScheduler(AnnealingScheduler)`
+  - `TrainingMetricsMonitor` (class, line 1688) `class TrainingMetricsMonitor`
+  - `CheckpointManager` (class, line 1844) `class CheckpointManager`
+  - `Phase5CheckpointManager` (class, line 1902) `class Phase5CheckpointManager`
+  - `GlassStateDetector` (class, line 2011) `class GlassStateDetector`
+  - `WeightIntegrityChecker` (class, line 2067) `class WeightIntegrityChecker`
+  - `TrainingEngine` (class, line 2099) `class TrainingEngine`
+  - `BatchSizeProspector` (class, line 2284) `class BatchSizeProspector`
+  - `SeedMiner` (class, line 2355) `class SeedMiner`
+  - `FullTrainingOrchestrator` (class, line 2496) `class FullTrainingOrchestrator`
+  - `RefinementOrchestrator` (class, line 2628) `class RefinementOrchestrator`
+  - `Phase5Orchestrator` (class, line 2757) `class Phase5Orchestrator`
+  - `ExperimentOrchestrator` (class, line 2910) `class ExperimentOrchestrator`
+  - `build_argument_parser` (method, line 3065) `def build_argument_parser()`
+  - `main` (method, line 3160) `def main()`
+  - `detect` (method, line 214) `def detect(self, spectral_field)`
+  - `compute` (method, line 220) `def compute(self, model)`
+  - `set_seed` (method, line 226) `def set_seed(seed, device)`
+  - `create_logger` (method, line 238) `def create_logger(name, level)`
+  - `__init__` (method, line 252) `def __init__(self, grid_size)`
+  - `_precompute_spectral_operators` (method, line 256) `def _precompute_spectral_operators(self)`
+  - `apply` (method, line 262) `def apply(self, field)`
+  - `time_evolution` (method, line 267) `def time_evolution(self, field, dt)`
+  - `__init__` (method, line 276) `def __init__(self, channels, grid_size)`
+  - `forward` (method, line 287) `def forward(self, x)`
+  - `__init__` (method, line 314) `def __init__(self, grid_size, hidden_dim, num_spectral_layers)`
+  - `forward` (method, line 329) `def forward(self, x)`
+  - `__init__` (method, line 341) `def __init__(self, config)`
+  - `_try_load_backbone` (method, line 348) `def _try_load_backbone(self)`
+  - `apply_hamiltonian` (method, line 382) `def apply_hamiltonian(self, field)`
+  - `time_evolve` (method, line 388) `def time_evolve(self, field, dt)`
+  - `__init__` (method, line 399) `def __init__(self, config)`
+  - `harmonic_potential` (method, line 403) `def harmonic_potential(self)`
+  - `double_well_potential` (method, line 411) `def double_well_potential(self)`
+  - `coulomb_like_potential` (method, line 419) `def coulomb_like_potential(self)`
+  - `periodic_lattice_potential` (method, line 427) `def periodic_lattice_potential(self)`
+  - `generate_mixed_potential` (method, line 433) `def generate_mixed_potential(self, seed)`
+  - `__init__` (method, line 449) `def __init__(self, config, hamiltonian_engine, seed)`
+  - `_solve_schrodinger_sample` (method, line 494) `def _solve_schrodinger_sample(self, potential, sample_seed)`
+  - `_time_evolve_wavefunction` (method, line 524) `def _time_evolve_wavefunction(self, psi_real, psi_imag, potential, energy)`
+  - `__len__` (method, line 557) `def __len__(self)`
+  - `__getitem__` (method, line 560) `def __getitem__(self, idx)`
+  - `get_validation_batch` (method, line 563) `def get_validation_batch(self)`
+  - `__init__` (method, line 568) `def __init__(self, grid_size, hidden_dim, expansion_dim, num_spectral_layers, input_channels, output_channels)`
+  - `forward` (method, line 590) `def forward(self, x)`
+  - `__init__` (method, line 607) `def __init__(self, config)`
+  - `compute_full_spectrum` (method, line 615) `def compute_full_spectrum(self, spectral_field)`
+  - `detect_bragg_peaks` (method, line 692) `def detect_bragg_peaks(self, power_spectrum, threshold_sigma)`
+  - `compute_resonance_metrics` (method, line 749) `def compute_resonance_metrics(self, spectral_field)`
+  - `__init__` (method, line 799) `def __init__(self, config)`
+  - `compute_mass_center` (method, line 807) `def compute_mass_center(self, spectral_field)`
+  - `__init__` (method, line 878) `def __init__(self, config)`
+  - `detect` (method, line 885) `def detect(self, spectral_field)`
+  - `extract` (method, line 948) `def extract(model, grid_size)`
+  - `__init__` (method, line 969) `def __init__(self, config)`
+  - `forward` (method, line 974) `def forward(self, phase_info, epoch)`
+  - `__init__` (method, line 1007) `def __init__(self, config)`
+  - `apply` (method, line 1011) `def apply(self, model, phase_info)`
+  - `__init__` (method, line 1022) `def __init__(self, config)`
+  - `compute` (method, line 1029) `def compute(self, model)`
+  - `apply_crystallization_pressure` (method, line 1062) `def apply_crystallization_pressure(self, model, topo_metrics)`
+  - `_empty_metrics` (method, line 1068) `def _empty_metrics()`
+  - `compute_local_complexity` (method, line 1086) `def compute_local_complexity(weights, epsilon)`
+  - `compute_superposition` (method, line 1103) `def compute_superposition(weights)`
+  - `__init__` (method, line 1123) `def __init__(self, config)`
+  - `compute` (method, line 1127) `def compute(self, model)`
+  - `compute_kappa` (method, line 1132) `def compute_kappa(self, model, val_x, val_y, num_batches)`
+  - `compute_discretization_margin` (method, line 1185) `def compute_discretization_margin(self, model)`
+  - `compute_alpha_purity` (method, line 1193) `def compute_alpha_purity(self, model)`
+  - `compute_kappa_quantum` (method, line 1199) `def compute_kappa_quantum(self, model)`
+  - `compute_poynting_vector` (method, line 1220) `def compute_poynting_vector(self, model)`
+  - `compute_hbar_effective` (method, line 1276) `def compute_hbar_effective(self, model, lambda_pressure)`
+  - `compute_all_metrics` (method, line 1285) `def compute_all_metrics(self, model, val_x, val_y)`
+  - `__init__` (method, line 1333) `def __init__(self, config)`
+  - `compute` (method, line 1336) `def compute(self, model)`
+  - `compute_effective_temperature` (method, line 1363) `def compute_effective_temperature(self, gradient_buffer, learning_rate)`
+  - `compute_specific_heat` (method, line 1387) `def compute_specific_heat(self, loss_history, temp_history)`
+  - `compute_gibbs_free_energy` (method, line 1401) `def compute_gibbs_free_energy(self, delta, alpha, temperature)`
+  - `compute_critical_temperature` (method, line 1408) `def compute_critical_temperature(self, alpha)`
+  - `__init__` (method, line 1413) `def __init__(self, config)`
+  - `compute` (method, line 1416) `def compute(self, model)`
+  - `_compute_level_spacing_ratio` (method, line 1453) `def _compute_level_spacing_ratio(self, spacings)`
+  - `__init__` (method, line 1466) `def __init__(self, config)`
+  - `compute` (method, line 1469) `def compute(self, model)`
+  - `_compute_ricci_scalar` (method, line 1488) `def _compute_ricci_scalar(self, metric)`
+  - `_estimate_sectional_curvatures` (method, line 1496) `def _estimate_sectional_curvatures(self, metric)`
+  - `__init__` (method, line 1510) `def __init__(self, config)`
+  - `compute` (method, line 1513) `def compute(self, model)`
+  - `compute_weight_diffraction` (method, line 1517) `def compute_weight_diffraction(self, coeffs)`
+  - `_compute_spectral_entropy` (method, line 1537) `def _compute_spectral_entropy(power_spectrum)`
+  - `__init__` (method, line 1547) `def __init__(self, config)`
+  - `current_lambda` (method, line 1556) `def current_lambda(self)`
+  - `step` (method, line 1559) `def step(self, epoch)`
+  - `compute_regularization_loss` (method, line 1568) `def compute_regularization_loss(self, model)`
+  - `set_lambda` (method, line 1576) `def set_lambda(self, value)`
+  - `__init__` (method, line 1581) `def __init__(self, config)`
+  - `step_adaptive` (method, line 1586) `def step_adaptive(self, epoch, topo_phase_state)`
+  - `__init__` (method, line 1606) `def __init__(self, config)`
+  - `current_lambda` (method, line 1615) `def current_lambda(self)`
+  - `step` (method, line 1618) `def step(self, epoch, improvement)`
+  - `compute_regularization_loss` (method, line 1627) `def compute_regularization_loss(self, model)`
+  - `set_lambda` (method, line 1635) `def set_lambda(self, value)`
+  - `__init__` (method, line 1640) `def __init__(self, config)`
+  - `temperature` (method, line 1648) `def temperature(self)`
+  - `step` (method, line 1651) `def step(self)`
+  - `accept_perturbation` (method, line 1657) `def accept_perturbation(self, delta_loss)`
+  - `should_restart` (method, line 1665) `def should_restart(self, current_delta, best_delta)`
+  - `__init__` (method, line 1670) `def __init__(self, config)`
+  - `step_adaptive` (method, line 1674) `def step_adaptive(self, alignment_trend, resonance_score)`
+  - `__init__` (method, line 1689) `def __init__(self, config)`
+  - `update_metrics` (method, line 1719) `def update_metrics(self)`
+  - `compute_delta_slope` (method, line 1730) `def compute_delta_slope(self)`
+  - `format_progress_bar` (method, line 1743) `def format_progress_bar(self, epoch, total_epochs, phase)`
+  - `__init__` (method, line 1845) `def __init__(self, config, checkpoint_dir)`
+  - `should_save_checkpoint` (method, line 1854) `def should_save_checkpoint(self)`
+  - `save_checkpoint` (method, line 1859) `def save_checkpoint(self, model, optimizer, epoch, metrics, phase, lambda_value, config_snapshot)`
+  - `load_latest_checkpoint` (method, line 1895) `def load_latest_checkpoint(self)`
+  - `__init__` (method, line 1907) `def __init__(self, config)`
+  - `_load_best_metrics` (method, line 1918) `def _load_best_metrics(self)`
+  - `should_save` (method, line 1937) `def should_save(self, current_delta, current_alpha, current_acc)`
+  - `save_checkpoint` (method, line 1948) `def save_checkpoint(self, model, optimizer, epoch, metrics, lambda_value)`
+  - `load_checkpoint` (method, line 1992) `def load_checkpoint(self, model, optimizer)`
+  - `__init__` (method, line 2012) `def __init__(self, config)`
+  - `should_stop` (method, line 2018) `def should_stop(self, epoch, lc, sp, kappa, delta, temp, cv)`
+  - `is_crystal_formed` (method, line 2053) `def is_crystal_formed(self, lc, sp, kappa, delta, temp, cv)`
+  - `check` (method, line 2069) `def check(model)`
+  - `__init__` (method, line 2100) `def __init__(self, config)`
+  - `compute_weight_metrics` (method, line 2113) `def compute_weight_metrics(self, model)`
+  - `compute_norm_conservation_error` (method, line 2128) `def compute_norm_conservation_error(self, model, val_x)`
+  - `train_single_epoch` (method, line 2141) `def train_single_epoch(self, model, optimizer, dataloader, epoch, lambda_scheduler)`
+  - `validate` (method, line 2185) `def validate(self, model, val_x, val_y)`
+  - `collect_all_metrics` (method, line 2198) `def collect_all_metrics(self, model, monitor, val_x, val_y, lambda_scheduler, annealing_scheduler, current_lr, epoch)`
+  - `__init__` (method, line 2285) `def __init__(self, config, hamiltonian_engine)`
+  - `prospect` (method, line 2290) `def prospect(self)`
+  - `__init__` (method, line 2356) `def __init__(self, config, hamiltonian_engine, batch_size)`
+  - `mine` (method, line 2367) `def mine(self)`
+  - `__init__` (method, line 2497) `def __init__(self, config, hamiltonian_engine, seed, batch_size)`
+  - `run_phase3_training` (method, line 2510) `def run_phase3_training(self)`
+  - `__init__` (method, line 2629) `def __init__(self, config, hamiltonian_engine, model, optimizer, monitor, seed, batch_size)`
+  - `run_phase4_refinement` (method, line 2648) `def run_phase4_refinement(self)`
+  - `__init__` (method, line 2762) `def __init__(self, config, hamiltonian_engine, model, monitor, seed, batch_size)`
+  - `run_phase5_crystallization` (method, line 2780) `def run_phase5_crystallization(self)`
+  - `__init__` (method, line 2911) `def __init__(self, config)`
+  - `run` (method, line 2915) `def run(self)`
+  - `_save_final_results` (method, line 2990) `def _save_final_results(self, model, monitor, seed, batch_size)`
+  - `safe_compute` (method, line 1298) `def safe_compute(func)`
+  - `safe_get` (method, line 1747) `def safe_get(key)`
+
